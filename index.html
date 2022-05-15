@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEPSI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.png">
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"> <img src="images/logo.png" class="logo"> </a>
+            <div class="toggleMenu" onclick="menuToggle()"></div>
+            <ul class="navigation">
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#">Products</a> </li>
+                <li> <a href="#">What's New</a> </li>
+                <li> <a href="#">NewsLetter</a> </li>
+                <li> <a href="#">Contact</a> </li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>That's What <br> <span>I Like </span> </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit illo dicta veniam ipsum consequuntur esse aliquam harum dolorem amet, libero tempora ducimus voluptatem et! Saepe accusamus cum totam dolore dolores.</p>
+                <a href="#">View All Products</a>
+            </div>
+            <div class="imgBox">
+                <img src="images/pepsi1.png" class="pepsi">
+            </div>
+        </div>
+
+        <ul class="thumb">
+            <li> <img src="images/pepsi1.png" onclick="imgSlider('images/pepsi1.png');changeBgColor('#0063be')"> </li>
+            <li> <img src="images/pepsi2.png" onclick="imgSlider('images/pepsi2.png');changeBgColor('#e60c2c')"> </li>
+            <li> <img src="images/pepsi3.png" onclick="imgSlider('images/pepsi3.png');changeBgColor('#1e1e1e')"> </li>
+        </ul>
+
+        <ul class="sci">
+            <li> <a href="https://www.facebook.com/PepsiMorocco/" target="_blank"> <img src="images/facebook.png"> </a> </li>
+            <li> <a href="https://twitter.com/pepsi" target="_blank"> <img src="images/twitter.png"> </a> </li>
+            <li> <a href="https://www.instagram.com/pepsi/" target="_blank"> <img src="images/instagram.png"> </a> </li>
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
